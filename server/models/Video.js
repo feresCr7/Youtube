@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 const videoSchema = mongoose.Schema({
     writer: {
         type:Schema.Types.ObjectId,
-        ref: 'User',
+        ref: 'User'
     },
     title: {
         type:String,
@@ -19,7 +19,7 @@ const videoSchema = mongoose.Schema({
     filePath : {
         type: String,
     },
-    category: String,
+    catogory: String,
     views : {
         type: Number,
         default: 0 

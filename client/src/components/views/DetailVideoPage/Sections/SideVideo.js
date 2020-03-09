@@ -1,7 +1,5 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect, useState} from 'react'
 import axios from 'axios';
-
-
 function SideVideo() {
 
     const [SideVideos, setSideVideos] = useState([])
@@ -55,4 +53,4 @@ function SideVideo() {
     )
 }
 
-export default SideVideo;
+export default SideVideo
